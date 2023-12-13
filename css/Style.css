@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+}
+
+header {
+    content: "";
+    width: auto;
+    height: 600px;
+    text-align: right;
+    background-image: url("../img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header:before {
+    content: "";
+    width: auto;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+    background-color: #3895ea;
+}
+
+.contend-header {
+    max-width: 1000px;
+    height: 600px;
+    margin: 0px 183px;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+div .contend-name {
+    width: 400px;
+    height: auto;
+    margin: 150px auto;
+    border: 2px white solid;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.contend-name h1 {
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contend-name p {
+    color: white;
+    font-size: 18px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contend-header a:hover {
+    color: #2fdb77;
+    border: #2fdb77 solid 2px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.icon-presentation img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: rgba(255, 255, 255, 0.329) 8px solid;
+}
+
+.icon-presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -80px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.about {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.title-aboutMe {
+    color: #dd820d;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.title-my-objects {
+    color: #dd820d;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.title-contact {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+u {
+    color: #3895ea;
+}
+
+
+/*Container works*/
+
+.section-works {
+    width: auto;
+    height: auto;
+    background-color: rgba(206, 206, 206, 0.287);
+    text-align: center;
+}
+
+.title-works {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+}
+
+.works {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.work {
+    width: 28%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2%;
+    border-radius: 10px;
+    padding-bottom: 2%;
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+}
+
+.work p b {
+    color: #3e83d1;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.goToPage {
+    text-decoration: none;
+    color: #3895ea;
+    font-size: 18px;
+}
+
+.goToPage:hover {
+    margin: 4% auto;
+    border-bottom: #2fdb77 solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+/*Fin container wokrs*/
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 53, 138);
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer a {
+    width: 70px;
+    height: auto;
+    margin: 1%;
+}
+
+footer div {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: auto;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    opacity: 30%;
+}
+
+footer img:hover {
+    opacity: 100%;
+    transform: scale(1.5, 1.5);
+}
+
+@media (max-width:666px) {}
